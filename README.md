@@ -1,6 +1,6 @@
 # 🛳 Titanic Dataset - Exploratory Data Analysis (EDA)
 
-This project performs beginner-level Exploratory Data Analysis (EDA) on the Titanic dataset. The goal is to identify survival patterns based on features like age, gender, and class using Python, Pandas, Matplotlib, and Seaborn.
+This project performs beginner-level Exploratory Data Analysis (EDA) on the Titanic dataset. The goal is to identify survival patterns based on features like age, gender, and class using Python, Pandas, and Seaborn.
 
 ---
 
@@ -12,20 +12,20 @@ Perform EDA on the Titanic dataset to analyze and visualize survival patterns.
 
 ## 📁 Dataset Features Used
 
-- PassengerID
-- Name
-- Age
-- Gender (converted from 'Sex')
-- Class (converted from 'Pclass')
-- Survived (0 = No, 1 = Yes)
+- **PassengerID**
+- **Name**
+- **Age**
+- **Gender** (converted from 'Sex')
+- **Class** (converted from 'Pclass')
+- **Survived** (0 = No, 1 = Yes)
 
 ---
 
 ## 🔧 Tools & Libraries
 
-- Python 
-- Pandas 
-- Seaborn 
+- Python 🐍
+- Pandas 📊
+- Seaborn 🎨
 - Matplotlib
 - Jupyter Notebook
 
@@ -42,10 +42,10 @@ Perform EDA on the Titanic dataset to analyze and visualize survival patterns.
 
 ## 📊 Visualizations
 
-1. Countplot: Survived vs Not Survived  
-2. Bar Plot: Survival by Gender and Class  
-3. Pie Chart: Passenger Class Distribution  
-4. Histogram: Age Distribution  
+1. **Countplot**: Survived vs Not Survived  
+2. **Bar Plot**: Survival by Gender and Class  
+3. **Pie Chart**: Passenger Class Distribution  
+4. **Histogram**: Age Distribution  
 
 ---
 
@@ -60,7 +60,36 @@ Perform EDA on the Titanic dataset to analyze and visualize survival patterns.
 
 ## 📦 How to Run
 
-`bash
+```bash
 git clone https://github.com/Rish-bh/titanic-eda.git
 cd titanic-eda
 jupyter notebook
+```
+
+Open the `titanic_eda.ipynb` file to explore the notebook.
+
+---
+
+## 📁 Project Structure
+
+```
+├── titanic_eda.ipynb
+├── titanic.csv
+├── titanic_cleaned.csv
+└── README.md
+```
+
+---
+
+## 🧑‍💻 Author
+
+**Rishabh Goyal**  
+BSc in Computer Science and Data Analytics, IIT Patna  
+Aspiring Data Scientist | Python | Machine Learning
+
+---
+
+## 🌐 License
+
+This project is open-source and free to use for educational purposes.
+
