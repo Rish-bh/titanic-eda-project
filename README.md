@@ -1,6 +1,6 @@
 # 🛳 Titanic Dataset - Exploratory Data Analysis (EDA)
 
-This project performs beginner-level Exploratory Data Analysis (EDA) on the Titanic dataset. The goal is to identify survival patterns based on features like age, gender, and class using Python, Pandas, and Seaborn.
+This project performs beginner-level Exploratory Data Analysis (EDA) on the Titanic dataset. The goal is to identify survival patterns based on features like age, gender, and class using Python, Pandas, Matplotlib, and Seaborn.
 
 ---
 
@@ -58,15 +58,61 @@ Perform EDA on the Titanic dataset to analyze and visualize survival patterns.
 
 ---
 
-## 📦 How to Run
+## ▶️ How to Run This Project (Step-by-Step)
+
+### 📌 Prerequisites
+Make sure you have the following installed:
+- Python (3.8 or above)
+- Jupyter Notebook
+- Required libraries: pandas, seaborn, matplotlib
+
+---
+
+### 🧾 Step 1: Download or Clone the Repository
+
+If hosted on GitHub, run:
+```bash
+git clone https://github.com/Rish-bh/titanic-eda.git
+cd titanic-eda
+```
+
+Or download the ZIP and extract it.
+
+---
+
+### 🧪 Step 2: (Optional) Create a Virtual Environment
+```bash
+python -m venv venv
+# On Windows:
+venv\Scripts\activate
+# On Mac/Linux:
+source venv/bin/activate
+```
+
+---
+
+### 📦 Step 3: Install Required Libraries
 
 ```bash
-git clone [https://github.com/Rish-bh/titanic-eda.git](https://github.com/goyalrishabh8/desktop-tutorial.git)
-cd titanic-eda
+pip install pandas matplotlib seaborn notebook
+```
+
+---
+
+### 🚀 Step 4: Start Jupyter Notebook
+
+```bash
 jupyter notebook
 ```
 
-Open the `titanic_eda.ipynb` file to explore the notebook.
+A browser window will open. Navigate to `EDA_Titanic.ipynb` and open it.
+
+---
+
+### ▶️ Step 5: Run the Notebook
+
+- Press `Shift + Enter` to run each cell one by one
+- All visualizations will be displayed inline
 
 ---
 
@@ -92,4 +138,5 @@ Aspiring Data Scientist | Python | Machine Learning
 ## 🌐 License
 
 This project is open-source and free to use for educational purposes.
+
 
