@@ -72,7 +72,7 @@ Make sure you have the following installed:
 
 If hosted on GitHub, run:
 ```bash
-git clone https://github.com/Rish-bh/titanic-eda.git
+git clone https://github.com/Rish-bh/titanic-eda-project.git
 cd titanic-eda
 ```
 
