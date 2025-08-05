@@ -61,6 +61,6 @@ Perform EDA on the Titanic dataset to analyze and visualize survival patterns.
 ## 📦 How to Run
 
 `bash
-git clone https://github.com/your-username/titanic-eda.git
+git clone https://github.com/Rish-bh/titanic-eda.git
 cd titanic-eda
 jupyter notebook
